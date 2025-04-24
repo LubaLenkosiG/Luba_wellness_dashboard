@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
+    url("/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  background: linear-gradient(to right, #31135e, #191970, #2d0e5b);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.react-calendar{
+  width: 100% !important;
+  border: none !important;
+  font-family: "Inter",sans-serif !important;
+}
+
+.react-calendar__tile--active{
+background-color: #232374 !important;
+color: #FCFBF4 !important;
+border-radius: 10%;
+}
